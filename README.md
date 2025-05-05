@@ -1,9 +1,9 @@
 # Diabetes Clustering Data Science Project
 
 ## Case description
-Here are 10000 diabetic patients’ data on certain health, physical, and biological metrics such as age, waist, blood pressure, cholesterols and so on. The goal here is to cluster those patients, so we can find patterns or similarities among patients. Therefore, doctors could tailor each cluster for recommendations and possible ways to reduce the severity of the diabetes. 
+Here are 10000 people's data on certain health, physical, and biological metrics such as age, waist, blood pressure, cholesterols and so on. Those data include people with diabetes and people without. The outcome of diabetes is unknown in this dataset.  The goal here is to cluster those data, so we can find patterns or similarities among people. Therefore, doctors could tailor each cluster for recommendations and possible ways to reduce the severity of the diabetes. 
 ## Executive Summary
-Diabetes can affect people who are overweight and underweight, who have a healthy life style with no smoking habits, no alcohol consumption or not. However, according to the data, no smoking could prevent an enlarged waist circumference. High level of physical activities would lead to a low level of blood pressure and a low level of cholesterols. The datasets were clustered in to 9 clusters in terms of physical activity level and smoking status. All those clusters have similar mean for each health metrics to one another.  
+Health metrics are evenly distributed. Just by looking at those metrics, it's difficult to see patterns. However, according to the data, no smoking could prevent an enlarged waist circumference. High level of physical activities would lead to a low level of blood pressure and a low level of cholesterols. The datasets were clustered in to 9 clusters in terms of physical activity level and smoking status. All those clusters have similar mean for each health metrics to one another.  
 ## Datasets descriptions
 There are 10000 rows and 20 features. And there are over 3000 null values in the alcohol consumption column. 
 
@@ -83,7 +83,8 @@ To fill in the null values in Alcohol_Consumption feature, I decided to replace 
  
 
 ## Part 3: Conclusion & Recommendations
-* Many never smokers and people with high or moderate physical levels had become diabetic. Most of the metrics have similar distribution for each cluster. However, no smoking and high physical activities do have a positive impact on weights, choleterols and blood pressures.
+* It's not hard to see that cluster 2 low physical level and current smokers are perhaps the most unhealthy group and perhaps the cluster with the highest percentage of diabetes. 
+* Most of the metrics have similar distribution for each cluster. However, no smoking and high physical activities do have a positive impact on weights, choleterols and blood pressures.
 * For people with low physical activity level and current smokers such as cluster 2. They need to smoke less and start do some exercise.
 * For people with low physical activity such as cluster 7 and 5, they need to beef up their activities.
 * For people who smoke currently such as cluster 0 and 6, they need to cut back smoking.
