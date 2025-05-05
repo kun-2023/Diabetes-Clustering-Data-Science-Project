@@ -22,6 +22,8 @@ To fill in the null values in Alcohol_Consumption feature, I decided to replace 
  
 
 2.	All those features are not correlated with one another.
+
+
 ![image](https://github.com/user-attachments/assets/3bd54206-1925-41da-a6f9-0a1005956611)
 
  
@@ -41,8 +43,8 @@ To fill in the null values in Alcohol_Consumption feature, I decided to replace 
 
 ![image](https://github.com/user-attachments/assets/69311efe-dcac-4af8-9e5c-cb3e3eaa577f)
 
-![image](https://github.com/user-attachments/assets/dfb94d61-e51a-470a-855c-1f921358263d)
 
+![image](https://github.com/user-attachments/assets/009d7d08-95e4-45ff-991d-c26ea6074914)
 
 
 
